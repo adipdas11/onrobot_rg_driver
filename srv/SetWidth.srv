@@ -1,0 +1,4 @@
+float32 width_mm
+---
+bool success
+string message

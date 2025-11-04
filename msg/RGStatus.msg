@@ -1,0 +1,12 @@
+builtin_interfaces/Time stamp
+float32 current_width_mm
+float32 current_width_with_offset_mm
+float32 fingertip_offset_mm
+bool is_moving
+bool object_detected
+bool s1_pushed
+bool s1_trigged
+bool s2_pushed
+bool s2_trigged
+bool safety_error
+bool ok

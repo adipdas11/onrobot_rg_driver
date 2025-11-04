@@ -1,0 +1,5 @@
+# Optional target force in 1/10 N (<=0 uses driver default 400)
+int32 force_n_10th
+---
+bool accepted
+string message

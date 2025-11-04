@@ -1,0 +1,5 @@
+float32 width_mm
+int32 force_n_10th
+---
+bool accepted
+string message

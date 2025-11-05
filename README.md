@@ -10,10 +10,8 @@ This driver exposes simple **ROS 2 services** and a **status publisher**, allowi
 - Supports both **RG2** and **RG6** grippers  
 - Communicates directly via **Modbus TCP (port 502)**  
 - Provides clean **service interfaces** for open, close, move, stop, force, and width  
-- Publishes live **status feedback** (width, movement, safety flags, etc.)  
-- Pure Python implementation using [`pymodbus`](https://pymodbus.readthedocs.io/en/latest/)  
-- ROS 2 Humble+ compatible (uses `rclpy` and `rosidl_default_generators`)  
-
+- Publishes live **status feedback** (width, movement, safety flags, etc.)
+- 
 ---
 
 ## ⚙️ Dependencies
@@ -30,12 +28,12 @@ This driver exposes simple **ROS 2 services** and a **status publisher**, allowi
 You must install the correct `pymodbus` version in your Python environment before running the driver:
 
 ```bash
-pip install pymodbus==2.5.3
-If you are using a ROS 2 workspace virtual environment, make sure it uses the same Python interpreter as your ROS 2 installation.
+pip3 install pymodbus==2.5.3
+```
 
-📁 Package Structure
-pgsql
-Copy code
+
+### 📁 Package Structure
+```text
 onrobot_rg_driver/
 ├── launch/
 │   └── rg.launch.py

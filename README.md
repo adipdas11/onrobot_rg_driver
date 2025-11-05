@@ -11,7 +11,6 @@ This driver exposes simple **ROS 2 services** and a **status publisher**, allowi
 - Communicates directly via **Modbus TCP (port 502)**  
 - Provides clean **service interfaces** for open, close, move, stop, force, and width  
 - Publishes live **status feedback** (width, movement, safety flags, etc.)
-- 
 ---
 
 ## ⚙️ Dependencies
@@ -62,7 +61,7 @@ onrobot_rg_driver/
 
 ```bash
 cd ~/workspaces/onrobot_ws/src
-git clone https://github.com/<your-username>/onrobot_rg_driver.git
+git clone https://github.com/adipdas11/onrobot_rg_driver.git
 ```
 ### Build the package:
 
